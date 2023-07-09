@@ -1,0 +1,22 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 0974b8be-12e9-4686-ab97-ea7c653acc3a)
+
+  (paper "A4")
+
+  (title_block
+    (title "{{cookiecutter.project_name}}")
+    (date "{% now 'utc', '%Y-%m-%d' %}")
+    (rev "A")
+    (comment 1 "Author: {{cookiecutter.author_name}}")
+    (comment 2 "Department: {{cookiecutter.department}}")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

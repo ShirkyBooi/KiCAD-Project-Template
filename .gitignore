@@ -1,0 +1,6 @@
+site/
+.venv/
+settings.json
+configurationCache.log
+dryrun.log
+targets.log

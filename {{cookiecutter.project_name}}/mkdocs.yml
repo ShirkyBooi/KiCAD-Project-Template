@@ -1,0 +1,73 @@
+# project information
+site_name: "{{cookiecutter.project_name}}"
+site_author: "{{cookiecutter.author_name}}"
+site_description: "{{cookiecutter.project_description}}"
+
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - header.autohide
+
+# Page Tree
+nav:
+  - Home: index.md
+  - Hardware:
+      - Overview: hardware/overview.md
+      - Mechanical: hardware/mechanical.md
+  - Design:
+      - design/design.md
+  - Change Log: changelog.md
+
+# Repository
+repo_url: {{cookiecutter.project_repo_name}}
+
+# plugins
+plugins:
+  - search
+  - mermaid2
+
+extra_javascript:
+  - https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js
+
+# extensions
+markdown_extensions:
+  - abbr
+  - attr_list
+  - admonition
+  - footnotes
+  - meta
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.smartsymbols
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tabbed
+  - pymdownx.tilde
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:mermaid2.fence_mermaid
+  - pymdownx.keys
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+# Copyright
+copyright: Copyright &copy; IoT.nxt
+
+# footer customisation
+extra:
+  social:
+      link: {{cookiecutter.project_repo_name}}
+# Google Analytics
+#google_analytics:
+#  - !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+# - auto

@@ -1,0 +1,7 @@
+default_context:
+  project_name: "Project Name"
+  project_github_repo_name: "Repo Name"
+  project_description: "Project Description"
+  author_name: "Ethan Shirk"
+  department: "Uridium - Innovation"
+
