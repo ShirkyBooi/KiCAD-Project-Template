@@ -55,7 +55,7 @@ Please check the README within your generated project for more information.
 
 ## Contribution
 
-Contributions to the IoTnxt KiCAD Project Template are very welcome! You can contribute in several ways:
+Contributions to the KiCAD Project Template are very welcome! You can contribute in several ways:
 
 - Reporting a bug: Please provide as much details as possible to reproduce the bug. This includes the version of the template, your operating system, steps to reproduce the bug, and, if available, error messages.
 
@@ -67,7 +67,7 @@ Contributions to the IoTnxt KiCAD Project Template are very welcome! You can con
 
   3. Make your changes, commit them to your branch, and push the commits to your branch.
 
-  4. Navigate to the https://dev.azure.com/iotnxt/IoTnxt/_git/IoTnxt.CTO.KiCAD.Template, and open a Pull Request for your changes.
+  4. Open a Pull Request for your changes.
 
 ## Author
 
