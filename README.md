@@ -17,13 +17,13 @@ pip install "cookiecutter>=1.4.0"`
 Next, navigate to the directory where you want to create your new KiCAD project and run the following command:
 
 ```sh
-cookiecutter https://github.com/ShirkyBooi/CreateKiCADProject
+cookiecutter https://github.com/ShirkyBooi/KiCAD-Project-Template
 ```
 
 Or if you have used the template before, you can simply run:
 
 ```sh
-cookiecutter CreateKiCADProject
+cookiecutter KiCAD-Project-Template
 ```
 
 If there have been changes to the repository since you last used the template, please use the first command and answer "yes" when prompted to redownload the template.
